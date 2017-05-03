@@ -200,3 +200,226 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+@media only screen and (max-width: 980px) {
+
+  h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+  }
+
+#logo {
+  float: left;
+  margin-left: 125px;
+  }
+
+    nav {
+  float: right;
+  margin-top: 25px;
+  margin-right: 126px;
+  }
+
+  .main-section {
+  float: left;
+  width: 418px;
+  max-width: 650px;
+  padding: 25px;
+  margin-left: 125px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  }
+
+  .auth-image {
+  float: left;
+  width: 366px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  }
+
+  .sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-right: 126px;
+  }
+
+    /* portfolio page */
+  .work {
+  position: relative;
+  float: left;
+  width: 365px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+  h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+  }
+
+  #logo {
+  float: left;
+  margin-left: 24px;
+  }
+
+    nav {
+  float: right;
+  margin-right: 24px;
+  }
+
+  .main-section {
+  float: left;
+  width: 715px;
+  max-width: 715px;
+  padding: 25px;
+  margin-left: 24px;
+  margin-right: 0px;
+  margin-top: 0px;
+  background: #fff;
+  border: 1px solid #ddd;
+  }
+
+  .auth-image {
+  float: left;
+  width: 329px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  }
+
+  .sidebar {
+  float: left;
+  width: 100%;
+  max-width: 715px;
+  margin-left: 24px;
+  margin-bottom: 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-right: 126px;
+  }
+  /* portfolio page */
+  .work {
+  position: relative;
+  float: left;
+  width: 300px;
+  margin: 0px 0 25px;
+  overflow: auto;
+  }
+  .work:nth-child(even) {
+  margin-right: 60px;
+}
+
+.main-section {
+  padding-bottom: 0px;
+}
+  
+}
+
+@media only screen and (max-width: 640px) {
+
+  body {
+  /*position: fixed;*/
+
+  }
+
+  h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+  }
+
+  #logo {
+  float: left;
+  width:100%;
+  margin-left: 0px;
+  max-height: 80px;
+  line-height: 80px;
+  }
+
+    nav {
+  float:left;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+  nav a {
+  display: inline-block;
+  padding-left: 65px;
+  margin-left: 50px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+  }
+
+  .main-section {
+  float: left;
+  width: 580px;
+  max-width: 580px;
+  padding: 25px;
+  margin-left: 24px;
+  margin-right: 0px;
+  margin-top: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+  }
+
+  .auth-image {
+  float: left;
+  width: 525px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  }
+
+  .sidebar {
+  float: left;
+  width: 100%;
+  max-width: 580px;
+  margin-left: 24px;
+  margin-bottom: 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-right: 126px;
+  }
+   /* portfolio page */
+  .work {
+  position: relative;
+  float: left;
+  width: 528px;
+  margin: 0px 0 25px;
+  overflow: auto;
+  }
+  .work:nth-child(even) {
+  margin-right: 60px;
+}
+
+.main-section {
+  padding-bottom: 0px;
+}
+  
+}
